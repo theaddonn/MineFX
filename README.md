@@ -1,6 +1,6 @@
 # MineFX
 ## About
-- MineFx is a Minecraft styled 3d isometric renderer
+- MineFx is a Minecraft styled 3d isometric renderer for the FxCp400 (Casio ClassPad II)
   
 ## Installation
 - You can simply download the last release. You can choose to download the ```.bin``` and ```.hkk```, it doesn't really matter — but the ```.bin``` is prefered...
