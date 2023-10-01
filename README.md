@@ -25,3 +25,13 @@
 - What to do now?
 - ###  HAVE FUN!
 
+## Things to be implemented
+- Chunk loading system
+- destroy/place system
+- interation system
+- More Blocks (also special like: chests)
+
+- Why isn't all this being implemented?
+  - The calc lacks the needed memory... (I can use about 64KB) and I am a bit bored of it..
+  - (I think I found a solution to the lack of memory)
+
