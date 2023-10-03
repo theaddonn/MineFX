@@ -3,6 +3,8 @@
 class LeaveBlockType : public BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x04; }
+
     virtual KeyColorPairMap getTextureTemplateKeys()
     {
         KeyColorPairMap keyColorMap = KeyColorPairMap(2);

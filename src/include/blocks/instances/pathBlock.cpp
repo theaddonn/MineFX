@@ -3,6 +3,8 @@
 class PathBlockType : public BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x06; }
+
     virtual TemplatePatternMap getTextureTemplatePattern()
     { 
         static char textureTemplatePattern[17][16] = {

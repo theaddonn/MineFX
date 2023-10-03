@@ -27,7 +27,7 @@ public:
     KeyColorPairMap(int conSize)
     {
         size = conSize;
-        data = new KeyColorPair[conSize];  // Allocate memory for 'data' based on 'conSize'
+        data = new KeyColorPair[conSize]; 
     }
 
     ~KeyColorPairMap()
@@ -46,7 +46,7 @@ public:
 
     uint16_t get(char key)
     {
-        for (int i = 0; i < currentSize; i++)  // Loop through 'currentSize' elements, not 'size'
+        for (int i = 0; i < currentSize; i++)
         {
             if (data[i].keyVal == key)
             {
@@ -62,7 +62,6 @@ struct TemplatePatternMap
 {
     char textureTemplatePattern[17][16];
 
-    // Constructor that accepts a dynamically-sized 2D array
     TemplatePatternMap(char c[][16])
     {
         for (int i = 0; i < 17; ++i)

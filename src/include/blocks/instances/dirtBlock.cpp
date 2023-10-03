@@ -3,6 +3,8 @@
 class DirtBlockType : public BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x02; }
+
     virtual KeyColorPairMap getTextureTemplateKeys()
     {
         KeyColorPairMap keyColorMap = KeyColorPairMap(2);

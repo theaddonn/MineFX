@@ -5,6 +5,8 @@
 class BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x00; }
+
     virtual TemplatePatternMap getTextureTemplatePattern()
     { 
         static char textureTemplatePattern[17][16] = {

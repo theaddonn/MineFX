@@ -4,6 +4,8 @@
 class AirBlockType : public BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x01; }
+
     virtual TemplatePatternMap getTextureTemplatePattern()
     { 
         static char textureTemplatePattern[17][16] = {

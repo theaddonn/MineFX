@@ -3,6 +3,8 @@
 class StoneBlockType : public BaseBlockType
 {
 public:
+    virtual uint8_t id(){ return 0x07; }
+
     virtual KeyColorPairMap getTextureTemplateKeys()
     {
         KeyColorPairMap keyColorMap = KeyColorPairMap(2);
