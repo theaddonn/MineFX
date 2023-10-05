@@ -2,7 +2,7 @@
 ## About
 - MineFx is a Minecraft styled 3d isometric renderer for the FxCp400 (Casio ClassPad II)
   
-## Installation
+## Installation:
 - You can simply download the last release. You can choose to download the ```.bin``` and ```.hkk```, it doesn't really matter — but the ```.bin``` is prefered...
 
 - If you haven't already installed hollyhock-2 on your calculator install it.
@@ -10,7 +10,7 @@
 - Then you just simply drag the downloaded file into the plugged in calculators folder
 
 - And finished! Now you have MineFx on your fx cp 400!
-## Build it 
+## Build it!
 
 - Install WSL 2 (recommended is ubuntu)
 
@@ -25,13 +25,14 @@
 - What to do now?
 - ###  HAVE FUN!
 
-## Things to be implemented
-- Chunk loading system
-- destroy/place system
-- interation system
-- More Blocks (also special like: chests)
-
-- Why isn't all this being implemented?
-  - The calc lacks the needed memory... (I can use about 64KB) and I am a bit bored of it..
-  - (I think I found a solution to the lack of memory)
+## Things to be implemented:
+- [x] Destroy system
+- [ ] Place system
+- [ ] Interation system
+- [ ] More Blocks (also special like: chests)
+- [ ] Entity system
+- [X] World save & load system
+- [ ] Chunk loading system
+- [ ] Chat logging
+- [ ] Better Controls
 
