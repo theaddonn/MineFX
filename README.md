@@ -32,7 +32,6 @@
 - [ ] More Blocks (also special like: chests)
 - [ ] Entity system
 - [X] World save & load system
-- [ ] Chunk loading system
-- [ ] Chat logging
+- [ ] Chat
 - [ ] Better Controls
 
