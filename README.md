@@ -33,8 +33,8 @@
 ## Things to be implemented:
 - [x] Destroy system
 - [X] World save & load system
+- [x] Place system
 - [ ] Better Controls
-- [ ] Place system
 - [ ] Interation system
 - [ ] More Blocks (also special like: chests)
 - [ ] Entity system
