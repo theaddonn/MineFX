@@ -27,11 +27,11 @@
 
 ## Things to be implemented:
 - [x] Destroy system
+- [X] World save & load system
+- [ ] Better Controls
 - [ ] Place system
 - [ ] Interation system
 - [ ] More Blocks (also special like: chests)
 - [ ] Entity system
-- [X] World save & load system
-- [ ] Chat
-- [ ] Better Controls
+- [ ] Chunk generation
 
