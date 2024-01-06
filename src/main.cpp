@@ -334,6 +334,8 @@ void main() {
 	    }
 	}
 
+	int BLOCK_PALETTE_INDEX = 0;
+
 	loadWorldFromDisk(MAP);
 	
 	clearEntireScreen();
@@ -421,6 +423,57 @@ void main() {
 				    MAP[cursor_y][cursor_x][cursor_z] = new AirBlock();
 				}
     		}
+			else if (testKey(key1, key2, KEY_COMMA))
+			{
+				BLOCK_PALETTE_INDEX++;
+				if (BLOCK_PALETTE_INDEX > 5)
+				{
+					BLOCK_PALETTE_INDEX = 0;
+				}
+			}
+			else if(testKey(key1, key2, KEY_EXE)){
+    			switch (BLOCK_PALETTE_INDEX)
+				{
+				case 0:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new DirtBlock();
+					break;
+				
+				case 1:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new GrassBlock();
+					break;
+
+				case 2:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new LeaveBlock();
+					break;
+				
+				case 3:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new LogBlock();
+					break;
+
+				case 4:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new PathBlock();
+					break;
+
+				case 5:
+				    delete MAP[cursor_y][cursor_x][cursor_z];
+				    MAP[cursor_y][cursor_x][cursor_z] = new StoneBlock();
+					break;
+
+				default:
+					break;
+				}
+    		}
+			else if (testKey(key1, key2, KEY_EQUALS))
+			{
+				cursor_x = 0;
+				cursor_y = 0;
+				cursor_z = 0;
+			}
 			
 			clearEntireScreen();
 			renderEntireScreen(MAP);

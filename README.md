@@ -10,6 +10,11 @@
 - Then you just simply drag the downloaded file into the plugged in calculators folder
 
 - And finished! Now you have MineFx on your fx cp 400!
+
+## Controls?
+![controls](assets/minefx_controls.png)
+(A little extra secret: press `=` to reset the cursor position)
+
 ## Build it!
 
 - Install WSL 2 (recommended is ubuntu)
