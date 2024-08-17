@@ -22,7 +22,7 @@
 
 APP_NAME("MineFX");
 APP_DESCRIPTION("Nothing more than a simple isometric renderer in a Minecraft style..");
-APP_AUTHOR("Adrian");
+APP_AUTHOR("theaddonn <theaddonn@gmail.com>");
 APP_VERSION("0.2.2");
 
 extern "C"
