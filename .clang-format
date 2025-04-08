@@ -1,0 +1,46 @@
+# .clang-format
+
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Braces and control statements
+BreakBeforeBraces: Attach
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+
+# Namespace and includes
+NamespaceIndentation: All
+IncludeBlocks: Preserve
+SortIncludes: true
+
+# Alignment & spacing
+AlignConsecutiveAssignments: true
+AlignOperands: true
+AlignAfterOpenBracket: Align
+SpaceBeforeParens: ControlStatements
+SpaceBeforeCpp11BracedList: true
+
+# Pointer/reference formatting
+PointerAlignment: Left
+DerivePointerAlignment: false
+
+# Function declaration style
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: Yes
+
+# Wrapping
+ColumnLimit: 100
+PenaltyBreakBeforeFirstCallParameter: 19
+PenaltyBreakString: 100
+PenaltyReturnTypeOnItsOwnLine: 100
+
+# Comments
+CommentPragmas: '^ IWYU pragma:'
+
+# Modern C++
+Cpp11BracedListStyle: true
+Standard: Latest

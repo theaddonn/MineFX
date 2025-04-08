@@ -1,0 +1,8 @@
+{
+    "$schema": "../schemas/block.json",
+    "name": "minefx:stone",
+    "components": {
+        "minefx:geometry": { "geometry": "geometry.minefx.full_block" },
+        "minefx:material": { "texture": "stone", "render_method": "opaque" }
+    }
+}

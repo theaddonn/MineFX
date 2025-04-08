@@ -1,0 +1,31 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "name": { "type": "string" },
+        "bones": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": { "type": ["string", "null"] },
+                    "parent": { "type": ["string", "null"] },
+                    "origin": { "$ref": "#/$defs/vec3" },
+                    "size": { "$ref": "#/$defs/vec3" },
+                    "rotation": { "$ref": "#/$defs/vec3" },
+                    "pivot": { "$ref": "#/$defs/vec3" }
+                },
+                "required": ["name", "origin", "size"]
+            }
+        }
+    },
+    "required": ["identifier", "bones"],
+    "$defs": {
+        "vec3": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 3,
+            "maxItems": 3
+        }
+    }
+}
